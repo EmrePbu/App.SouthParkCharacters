@@ -1,13 +1,8 @@
 <resources>
     <string name="app_name">App.SouthPark.Characters</string>
-    <string name="aliases"><b>Aliases: </b>%1$s</string>
+    <string name="name"><b>Name: </b>%1$s</string>
     <string name="gender"><b>Gender: </b>%1$s</string>
-    <string name="race"><b>Race: </b>%1$s</string>
     <string name="hair"><b>Hair: </b>%1$s</string>
     <string name="age"><b>Age: </b>%1$s</string>
     <string name="birthday"><b>Birthday: </b>%1$s</string>
-    <string name="occupation"><b>Occupation: </b>%1$s</string>
-    <string name="grade"><b>Grade: </b>%1$s</string>
-    <string name="religion"><b>Religion: </b>%1$s</string>
-    <string name="voiced_by"><b>Voiced by: </b>%1$s</string>
 </resources>
