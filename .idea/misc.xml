@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/repos/a/AppSouthParkCharacters/app/src/main/res/layout/activity_details.xml" value="0.371875" />
-        <entry key="..\:/repos/a/AppSouthParkCharacters/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/repos/a/AppSouthParkCharacters/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/repos/a/AppSouthParkCharacters/app/src/main/res/layout/characters_row_item.xml" value="0.33" />
       </map>
     </option>
   </component>

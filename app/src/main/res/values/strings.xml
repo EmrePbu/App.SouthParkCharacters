@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">App.SouthPark.Characters</string>
-    <string name="name"><b>Name: </b>%1$s</string>
-    <string name="gender"><b>Gender: </b>%1$s</string>
-    <string name="hair"><b>Hair: </b>%1$s</string>
-    <string name="age"><b>Age: </b>%1$s</string>
-    <string name="birthday"><b>Birthday: </b>%1$s</string>
+    <string name="name">Name: %1$s</string>
+    <string name="gender">Gender: %1$s</string>
+    <string name="hair">Hair: %1$s</string>
+    <string name="age">Age: %1$s</string>
+    <string name="birthday">Birthday: %1$s</string>
 </resources>

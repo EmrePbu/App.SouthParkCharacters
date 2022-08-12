@@ -1,17 +1,19 @@
 package com.emrepbu.appsouthparkcharacters
 
-class SouthParkCharacters(
+import java.io.Serializable
+
+class SouthParkCharacter(
     val image: Int,
     val name: String,
     val gender: String,
     val hair: String,
     val age: Int,
     val birthday: String,
-)
+) : Serializable
 
 
-val ericCartman = SouthParkCharacters(
-    image = R.drawable.Eric_Cartman,
+val ericCartman = SouthParkCharacter(
+    image = R.drawable.eric_cartman,
     name = "Eric Cartman",
     gender = "Male",
     hair = "Brown",
@@ -19,8 +21,8 @@ val ericCartman = SouthParkCharacters(
     birthday = "July 1",
 )
 
-val kennyMcCormick = SouthParkCharacters(
-    image = R.drawable.Kenny_McCormick,
+val kennyMcCormick = SouthParkCharacter(
+    image = R.drawable.kenny_mccormick,
     name = "Kenny McCormick",
     gender = "Male",
     hair = "Blond",
@@ -28,8 +30,8 @@ val kennyMcCormick = SouthParkCharacters(
     birthday = "March 22",
 )
 
-val kyleBroflovski = SouthParkCharacters(
-    image = R.drawable.Kyle_Broflovski,
+val kyleBroflovski = SouthParkCharacter(
+    image = R.drawable.kyle_broflovski,
     name = "Kyle Broflovski",
     gender = "Male",
     hair = "Red",
@@ -37,8 +39,8 @@ val kyleBroflovski = SouthParkCharacters(
     birthday = "May 26",
 )
 
-val stanMarsh = SouthParkCharacters(
-    image = R.drawable.Stan_Marsh,
+val stanMarsh = SouthParkCharacter(
+    image = R.drawable.stan_marsh,
     name = "Stan Marsh",
     gender = "Male",
     hair = "Black",
