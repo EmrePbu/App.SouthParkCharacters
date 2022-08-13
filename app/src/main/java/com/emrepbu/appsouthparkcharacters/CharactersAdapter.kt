@@ -29,7 +29,10 @@ class CharactersAdapter(private val southParkCharacters: ArrayList<SouthParkChar
         }
         holder.itemView.setOnClickListener {
             val intent = Intent(holder.itemView.context, DetailsActivity::class.java)
-            intent.putExtra("characters", southParkCharacters[position])
+            // data migration with intent
+            //intent.putExtra("characters", southParkCharacters[position])
+            // data migration with Singleton
+            Singleton.selectedCharacter = southParkCharacters[position]
             holder.itemView.context.startActivity(intent)
         }
     }
